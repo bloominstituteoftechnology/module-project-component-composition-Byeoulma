@@ -37,5 +37,28 @@ header, footer {
 
 section {
   padding: 1rem;
+}
+
+body {
   background-color: black;
 }
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: #ffffff;  
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #7F1515;  
+  }

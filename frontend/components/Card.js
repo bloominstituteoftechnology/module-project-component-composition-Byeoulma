@@ -14,10 +14,12 @@ width: 70%;
 padding: 10px;
 box-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
 
+
+
 h1 {
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
 }
 
@@ -25,6 +27,10 @@ p {
   font-family: monospace;
   font-size: 14px;
   text-shadow: #E7E7E7 1px 0 5px;
+  padding: 5px;
+  overflow: auto;
+  height: 240px;
+  width: auto;
 }
 
 figcaption {
@@ -50,7 +56,7 @@ function Card({ title, text, imageURL, date }) {
         date={date}
         />
         <p>
-          { text}
+          { text }
         </p>
       </StyledCard>
     )
